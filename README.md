@@ -1,3 +1,4 @@
+
 🔍 Overview:
 The Student Analytics System ingests structured text files to store and query student data. It models two core entities — students and friendships — allowing use to look up grades, averages, demographics, and social connections by student ID.
 
