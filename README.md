@@ -55,6 +55,5 @@ GetFriend(code)                       Returns friend list for a given student ID
 
 
 
-👤 Author
-Steeve Sunny — https://github.com/steeve-sunny · LinkedIn
-
+👤 Author:
+Steeve Sunny — https://github.com/steeve-sunny · https://www.linkedin.com/in/steeve-sunny-261080393/
