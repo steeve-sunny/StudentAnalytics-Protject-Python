@@ -1,18 +1,18 @@
-🔍 Overview: 
+Overview: 
 The Student Analytics System ingests structured text files to store and query student data. It models two core entities — students and friendships — allowing use 
 to look up grades, averages, demographics, and social connections by student ID.
 
 
-✨ Features:
- 1. 📊 Grade Tracking — stores multiple grades per student and computes averages
- 2. 🧑‍🎓 Student Profiles — name, ID, age, and enrolled course per student
- 3. 🤝 Friendship Graph — bidirectional social graph built from relationship data
- 4. 🔎 Lookup Utilities — query any student by ID or name
- 5. 🛡️ Error Handling — graceful handling of missing files and malformed data
+ Features:
+ 1. Grade Tracking — stores multiple grades per student and computes averages
+ 2. Student Profiles — name, ID, age, and enrolled course per student
+ 3. Friendship Graph — bidirectional social graph built from relationship data
+ 4. Lookup Utilities — query any student by ID or name
+ 5. Error Handling — graceful handling of missing files and malformed data
 
 
 
-📄 Data File Formats:
+Data File Formats:
  1. Student_info.txt — comma-separated student records:
     S001,John Murphy,20,Computer Science
 
@@ -25,7 +25,7 @@ to look up grades, averages, demographics, and social connections by student ID.
 
 
 
-💻 Lookup Usage:
+Lookup Usage:
 Uncomment any of the following in main.py for targeted queries:
 python
 
@@ -37,7 +37,7 @@ print(s.GetStudentDegree("John Murphy"))  # Enrolled degree
 
 
 
-🏗️ Class Architecture:
+Class Architecture:
 1. Student — handles all academic and demographic data
 
 Method                                Description
@@ -55,5 +55,5 @@ GetFriend(code)                       Returns friend list for a given student ID
 
 
 
-👤 Author:
+Author:
 Steeve Sunny — https://github.com/steeve-sunny · https://www.linkedin.com/in/steeve-sunny-261080393/
